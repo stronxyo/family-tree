@@ -1,6 +1,6 @@
 // Offline copy of the family tree, written by scripts/web_app.py. Network first: an online phone always gets the
 // latest build and refreshes the copy; offline, the last copy opens. Each build renames the cache.
-const CACHE = "family-tree-1f0616eea5cc";
+const CACHE = "family-tree-da20b9014290";
 const FILES = ["./", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-maskable-512.png"];
 
 self.addEventListener("install", event => {
